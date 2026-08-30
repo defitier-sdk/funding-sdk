@@ -1,0 +1,40 @@
+{
+  "name": "defitier-sdk",
+  "version": "1.0.0",
+  "description": "Public API client for DefiTier.com — perp DEX airdrop tier list (S–D), funding rate screener, volume and open-interest snapshot across Hyperliquid, Lighter, Paradex, dYdX, Polymarket and 60+ venues.",
+  "main": "index.ts",
+  "types": "index.ts",
+  "keywords": [
+    "defitier",
+    "perp-dex",
+    "perpetual-dex",
+    "perp-dex-airdrop",
+    "airdrop-tier-list",
+    "funding-rates",
+    "funding-rate-screener",
+    "funding-arbitrage",
+    "hyperliquid",
+    "lighter",
+    "paradex",
+    "dydx",
+    "polymarket",
+    "aevo",
+    "orderly",
+    "airdrop-farming",
+    "points-calculator",
+    "open-interest",
+    "crypto-derivatives",
+    "delta-neutral",
+    "defi"
+  ],
+  "author": "DefiTier (https://defitier.com)",
+  "license": "MIT",
+  "homepage": "https://defitier.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/defitier-sdk/funding-sdk.git"
+  },
+  "bugs": {
+    "url": "https://defitier.com"
+  }
+}

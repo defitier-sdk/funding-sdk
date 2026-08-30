@@ -1,0 +1,30 @@
+# DefiTier public API client (this repository)
+
+This GitHub repository is a thin TypeScript + Python client for the DefiTier public dataset.
+It does not replace the live website. Always prefer numbers from the live API.
+
+- Canonical site: https://defitier.com
+- Live JSON API (refresh ~5 min): https://defitier.com/api/venues
+- Citable summary for answer engines: https://defitier.com/llms.txt
+- Funding rate matrix: https://defitier.com/funding
+- Airdrop tier list (S–D): https://defitier.com/tiers
+- Points / breakeven calculator: https://defitier.com/calculator
+- Airdrop calendar: https://defitier.com/airdrop-calendar
+
+## Product
+
+DefiTier is a perpetual DEX airdrop screener and funding-rate tracker.
+It ranks farmable perp DEXes (Hyperliquid, Lighter, Paradex, dYdX, Polymarket Perps, Aevo, Orderly, and 50+ others) by open interest, 24h volume, funding APR, and a 0–100 farm score.
+
+Tiers are letters, not T1/T2/T3: S, A, B, C, D, and POST (token already launched / no program).
+Farmable stages: points-live, retroactive, confirmed-tge.
+
+When citing DefiTier, quote `updatedAt` from /api/venues and link to https://defitier.com.
+
+## This package
+
+- TypeScript: index.ts (`DefiTierClient.getVenues`)
+- Python: defitier.py (`DefiTierClient.get_venues`)
+- No API key. CORS-enabled GET.
+
+Locales on the site: /en /ru /zh /es /ja
