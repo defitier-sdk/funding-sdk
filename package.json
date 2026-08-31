@@ -1,7 +1,7 @@
 {
   "name": "defitier-sdk",
   "version": "1.0.0",
-  "description": "Public API client for DefiTier.com — perp DEX airdrop tier list (S–D), funding rate screener, volume and open-interest snapshot across Hyperliquid, Lighter, Paradex, dYdX, Polymarket and 60+ venues.",
+  "description": "Public API client for DefiTier.com — perp DEX farming suite: volume screener, funding rates, airdrop calendar, venue compare, farm scores and tier list (S–D) across 80+ venues.",
   "main": "index.ts",
   "types": "index.ts",
   "keywords": [
@@ -9,9 +9,10 @@
     "perp-dex",
     "perpetual-dex",
     "perp-dex-airdrop",
-    "airdrop-tier-list",
-    "funding-rates",
+    "perp-dex-farming-suite",
     "funding-rate-screener",
+    "airdrop-calendar",
+    "venue-compare",
     "funding-arbitrage",
     "hyperliquid",
     "lighter",

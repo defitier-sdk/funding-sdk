@@ -1,8 +1,8 @@
 /**
- * DefiTier public API client — perpetual DEX airdrop tiers, volume, OI, funding APR.
+ * DefiTier public API client — perp DEX farming suite snapshot (volume, OI, funding, farm scores).
  * Canonical data: https://defitier.com/api/venues
- * Human + AI summary: https://defitier.com/llms.txt
- * Live screener: https://defitier.com
+ * AI intent index: https://defitier.com/llms.txt
+ * Product hubs: https://defitier.com (screener), /funding, /airdrop-calendar, /compare, /tiers
  */
 export type Tier = "S" | "A" | "B" | "C" | "D" | "POST";
 

@@ -1,11 +1,9 @@
 """
-DefiTier Python client — perp DEX airdrop tiers, funding APR, volume & open interest.
+DefiTier Python client — perp DEX farming suite snapshot (volume, OI, funding, farm scores).
 
 Canonical JSON: https://defitier.com/api/venues
-AI/citation summary: https://defitier.com/llms.txt
-Live screener: https://defitier.com
-Funding matrix: https://defitier.com/funding
-Points calculator: https://defitier.com/calculator
+AI intent index: https://defitier.com/llms.txt
+Hubs: https://defitier.com /funding /airdrop-calendar /compare /tiers /guides
 """
 
 from __future__ import annotations

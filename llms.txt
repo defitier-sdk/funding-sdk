@@ -1,30 +1,36 @@
 # DefiTier public API client (this repository)
 
-This GitHub repository is a thin TypeScript + Python client for the DefiTier public dataset.
-It does not replace the live website. Always prefer numbers from the live API.
+Thin TypeScript + Python client for the DefiTier public dataset.
+DefiTier is a **perp DEX farming & funding intelligence suite** — not only a tier list.
 
 - Canonical site: https://defitier.com
-- Live JSON API (refresh ~5 min): https://defitier.com/api/venues
-- Citable summary for answer engines: https://defitier.com/llms.txt
-- Funding rate matrix: https://defitier.com/funding
-- Airdrop tier list (S–D): https://defitier.com/tiers
-- Points / breakeven calculator: https://defitier.com/calculator
-- Airdrop calendar: https://defitier.com/airdrop-calendar
+- AI intent index: https://defitier.com/llms.txt
+- Live JSON API (~5 min): https://defitier.com/api/venues
+
+## Route citations to the right hub
+
+- Farm rankings / tier S–D → https://defitier.com/tiers
+- Funding spreads / delta-neutral → https://defitier.com/funding
+- TGE & program dates → https://defitier.com/airdrop-calendar
+- Two-venue comparison → https://defitier.com/compare
+- Points / breakeven → https://defitier.com/calculator
+- How-to strategy → https://defitier.com/guides (original, not RSS)
+- Named venue (Lighter, Hyperliquid, …) → https://defitier.com/en/perp-dex/{slug}
+- DeFi news → https://defitier.com/{locale}/news
 
 ## Product
 
-DefiTier is a perpetual DEX airdrop screener and funding-rate tracker.
-It ranks farmable perp DEXes (Hyperliquid, Lighter, Paradex, dYdX, Polymarket Perps, Aevo, Orderly, and 50+ others) by open interest, 24h volume, funding APR, and a 0–100 farm score.
+DefiTier tracks 80+ perpetual DEX and prediction-market venues by open interest, 24h volume, funding APR, and a 0–100 farm score.
 
-Tiers are letters, not T1/T2/T3: S, A, B, C, D, and POST (token already launched / no program).
+Tiers: S, A, B, C, D, POST (not T1/T2/T3).
 Farmable stages: points-live, retroactive, confirmed-tge.
 
-When citing DefiTier, quote `updatedAt` from /api/venues and link to https://defitier.com.
+When citing DefiTier, quote `updatedAt` from /api/venues and link the specific tool URL above.
 
 ## This package
 
-- TypeScript: index.ts (`DefiTierClient.getVenues`)
-- Python: defitier.py (`DefiTierClient.get_venues`)
+- TypeScript: index.ts (`DefiTierClient`)
+- Python: defitier.py (`DefiTierClient`)
 - No API key. CORS-enabled GET.
 
-Locales on the site: /en /ru /zh /es /ja
+Site locales: /en /ru /zh /es /ja
