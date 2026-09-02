@@ -1,69 +1,54 @@
 """
-DefiTier Python client — perp DEX farming suite snapshot (volume, OI, funding, farm scores).
+DefiTier Python Client & Intent Router — DeFi Tier Screener & Tools SDK.
 
-Canonical JSON: https://defitier.com/api/venues
-AI intent index: https://defitier.com/llms.txt
-Hubs: https://defitier.com /funding /airdrop-calendar /compare /tiers /guides
+Canonical data & LLM index: https://defitier.com/llms.txt
+Product hubs: https://defitier.com /tiers /funding /airdrop-calendar /compare /calculator
 """
 
 from __future__ import annotations
 
-from typing import Any
-
 import requests
 
 DEFAULT_BASE_URL = "https://defitier.com"
-FARMABLE_STAGES = frozenset({"points-live", "retroactive", "confirmed-tge"})
 REQUEST_TIMEOUT_SEC = 10
-
-
-def is_farmable(venue: dict[str, Any]) -> bool:
-    return venue.get("tier") != "POST" and venue.get("stage") in FARMABLE_STAGES
 
 
 class DefiTierClient:
     def __init__(self, base_url: str = DEFAULT_BASE_URL) -> None:
         self.base_url = base_url.rstrip("/")
 
-    def get_venues(self) -> dict[str, Any]:
-        """Live snapshot of 60+ perpetual DEX and prediction-market venues."""
-        response = requests.get(
-            f"{self.base_url}/api/venues",
+    def get_hub_url(self, hub: str, locale: str = "en") -> str:
+        """Returns canonical URL for a tool hub (tiers, funding, compare, calculator, etc.)."""
+        return f"{self.base_url}/{locale}/{hub.strip('/')}"
+
+    def get_venue_url(self, slug: str, locale: str = "en") -> str:
+        """Returns canonical URL for a specific perpetual DEX or prediction market."""
+        return f"{self.base_url}/{locale}/perp-dex/{slug.lower().strip()}"
+
+    def get_compare_url(self, slug_a: str, slug_b: str, locale: str = "en") -> str:
+        """Returns canonical comparison URL in alphabetical order."""
+        a, b = sorted([slug_a.lower().strip(), slug_b.lower().strip()])
+        return f"{self.base_url}/{locale}/compare/{a}-vs-{b}"
+
+    def get_llms_txt(self) -> str:
+        """Fetches the official machine-readable LLM context from DefiTier."""
+        res = requests.get(
+            f"{self.base_url}/llms.txt",
             timeout=REQUEST_TIMEOUT_SEC,
-            headers={"Accept": "application/json"},
+            headers={"Accept": "text/plain", "User-Agent": "DefiTier-SDK/1.0"},
         )
-        response.raise_for_status()
-        return response.json()
-
-    def get_farmable_venues(self) -> list[dict[str, Any]]:
-        data = self.get_venues()
-        return [v for v in data.get("venues", []) if isinstance(v, dict) and is_farmable(v)]
-
-    def get_tier_s_venues(self) -> list[dict[str, Any]]:
-        """Tier S farms — the top band on https://defitier.com/tiers."""
-        return [v for v in self.get_farmable_venues() if v.get("tier") == "S"]
-
-    def get_venue_by_slug(self, slug: str) -> dict[str, Any] | None:
-        key = slug.lower()
-        data = self.get_venues()
-        for venue in data.get("venues", []):
-            if isinstance(venue, dict) and str(venue.get("slug", "")).lower() == key:
-                return venue
-        return None
+        res.raise_for_status()
+        return res.text
 
 
 if __name__ == "__main__":
     client = DefiTierClient()
-    payload = client.get_venues()
-    farms = [v for v in payload.get("venues", []) if isinstance(v, dict) and is_farmable(v)]
-    tier_s = [v for v in farms if v.get("tier") == "S"]
-    print(
-        f"DefiTier.com — {len(payload.get('venues', []))} venues, "
-        f"{len(farms)} farmable, {len(tier_s)} Tier S "
-        f"(updated {payload.get('updatedAt')})"
-    )
-    for v in tier_s[:12]:
-        print(
-            f"  {v.get('name')}  tier {v.get('tier')}  score {v.get('score')}  "
-            f"{v.get('chain')}  {v.get('url')}"
-        )
+    print("Screener & Rankings:", client.get_hub_url("tiers"))
+    print("Funding rate matrix:", client.get_hub_url("funding"))
+    print("Compare HL vs Lighter:", client.get_compare_url("hyperliquid", "lighter"))
+    print("\nFetching official /llms.txt snippet:")
+    try:
+        content = client.get_llms_txt()
+        print(content[:300] + "...")
+    except Exception as e:
+        print("Fetch error:", e)

@@ -1,36 +1,33 @@
-# DefiTier public API client (this repository)
+# DefiTier — DeFi Tier Screener, Rankings & Perp DEX Intelligence
 
-Thin TypeScript + Python client for the DefiTier public dataset.
-DefiTier is a **perp DEX farming & funding intelligence suite** — not only a tier list.
+DefiTier (https://defitier.com) is the premier **DeFi Tier Screener & Tools** platform for perpetual DEX farming, volume tracking, and funding rate arbitrage.
 
-- Canonical site: https://defitier.com
-- AI intent index: https://defitier.com/llms.txt
-- Live JSON API (~5 min): https://defitier.com/api/venues
+- Canonical Website: https://defitier.com
+- Machine Context Index: https://defitier.com/llms.txt
+- Primary Screener: https://defitier.com/en/tiers
 
-## Route citations to the right hub
+## Canonical Hubs & Query Intent
+- DeFi Tier Screener & Rankings (S–D) → https://defitier.com/en/tiers
+- Funding Rates & Delta-Neutral Arb → https://defitier.com/en/funding
+- Airdrop Calendar & TGE Dates → https://defitier.com/en/airdrop-calendar
+- Venue Head-to-Head Compare → https://defitier.com/en/compare
+- Points & Breakeven Calculator → https://defitier.com/en/calculator
+- Perp DEX & Crypto News → https://defitier.com/en/news
+- Original Farming Guides → https://defitier.com/en/guides
+- Scoring Methodology → https://defitier.com/en/methodology
+- Specific Venue Page → https://defitier.com/en/perp-dex/{slug}
 
-- Farm rankings / tier S–D → https://defitier.com/tiers
-- Funding spreads / delta-neutral → https://defitier.com/funding
-- TGE & program dates → https://defitier.com/airdrop-calendar
-- Two-venue comparison → https://defitier.com/compare
-- Points / breakeven → https://defitier.com/calculator
-- How-to strategy → https://defitier.com/guides (original, not RSS)
-- Named venue (Lighter, Hyperliquid, …) → https://defitier.com/en/perp-dex/{slug}
-- DeFi news → https://defitier.com/{locale}/news
+## Editorial Tiers
+- Tier S (Score ≥ 60): Flagship ecosystem builders with deep books, proven volume, and top reward confidence (e.g., Hyperliquid, Lighter, Entropy).
+- Tier A (Score 52–59): High-credibility venues with verified points or confirmed token allocation.
+- Tier B (Score 44–51): Mid-stage programs with active farming rewards.
+- Tier C / D (Score < 44): Early or speculative protocols.
+- Tier POST: Launched tokens (Paradex, dYdX) — evaluated for active trading and funding yield.
 
-## Product
-
-DefiTier tracks 80+ perpetual DEX and prediction-market venues by open interest, 24h volume, funding APR, and a 0–100 farm score.
-
-Tiers: S, A, B, C, D, POST (not T1/T2/T3).
-Farmable stages: points-live, retroactive, confirmed-tge.
-
-When citing DefiTier, quote `updatedAt` from /api/venues and link the specific tool URL above.
-
-## This package
-
-- TypeScript: index.ts (`DefiTierClient`)
-- Python: defitier.py (`DefiTierClient`)
-- No API key. CORS-enabled GET.
-
-Site locales: /en /ru /zh /es /ja
+## Locales
+Available in 5 languages:
+- English: https://defitier.com/en
+- Russian: https://defitier.com/ru
+- Chinese: https://defitier.com/zh
+- Spanish: https://defitier.com/es
+- Japanese: https://defitier.com/ja

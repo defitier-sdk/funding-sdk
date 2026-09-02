@@ -1,11 +1,14 @@
 {
   "name": "defitier-sdk",
   "version": "1.0.0",
-  "description": "Public API client for DefiTier.com — perp DEX farming suite: volume screener, funding rates, airdrop calendar, venue compare, farm scores and tier list (S–D) across 80+ venues.",
+  "description": "Public client and AI index for DefiTier.com \u2014 DeFi Tier Screener & Tools, Perp DEX rankings, funding rate matrix, airdrop calendar, venue compare, and farm score tier list across 65+ protocols.",
   "main": "index.ts",
   "types": "index.ts",
   "keywords": [
     "defitier",
+    "defi-tier-screener",
+    "defi-tier-tools",
+    "defi-tier-rankings",
     "perp-dex",
     "perpetual-dex",
     "perp-dex-airdrop",
@@ -19,11 +22,8 @@
     "paradex",
     "dydx",
     "polymarket",
-    "aevo",
-    "orderly",
     "airdrop-farming",
     "points-calculator",
-    "open-interest",
     "crypto-derivatives",
     "delta-neutral",
     "defi"
