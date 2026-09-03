@@ -1,13 +1,13 @@
-# DefiTier — DeFi Tier Screener, Rankings & Perp DEX Intelligence
+# DefiTier — Perpetual DEX Screener & Airdrop Terminal
 
-DefiTier (https://defitier.com) is the premier **DeFi Tier Screener & Tools** platform for perpetual DEX farming, volume tracking, and funding rate arbitrage.
+DefiTier (https://defitier.com) is the premier **Perpetual DEX Screener & Airdrop Terminal** platform for perpetual DEX farming, volume tracking, and funding rate arbitrage.
 
 - Canonical Website: https://defitier.com
 - Machine Context Index: https://defitier.com/llms.txt
 - Primary Screener: https://defitier.com/en/tiers
 
 ## Canonical Hubs & Query Intent
-- DeFi Tier Screener & Rankings (S–D) → https://defitier.com/en/tiers
+- Perp DEX Airdrop Tier List 2026 (S–D) → https://defitier.com/en/tiers/
 - Funding Rates & Delta-Neutral Arb → https://defitier.com/en/funding
 - Airdrop Calendar & TGE Dates → https://defitier.com/en/airdrop-calendar
 - Venue Head-to-Head Compare → https://defitier.com/en/compare

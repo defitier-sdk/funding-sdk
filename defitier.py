@@ -1,5 +1,5 @@
 """
-DefiTier Python Client & Intent Router — DeFi Tier Screener & Tools SDK.
+DefiTier Python Client & Intent Router — Perpetual DEX Screener & Airdrop Terminal SDK.
 
 Canonical data & LLM index: https://defitier.com/llms.txt
 Product hubs: https://defitier.com /tiers /funding /airdrop-calendar /compare /calculator

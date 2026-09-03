@@ -1,7 +1,7 @@
 {
   "name": "defitier-sdk",
   "version": "1.0.0",
-  "description": "Public client and AI index for DefiTier.com \u2014 DeFi Tier Screener & Tools, Perp DEX rankings, funding rate matrix, airdrop calendar, venue compare, and farm score tier list across 65+ protocols.",
+  "description": "Public client and AI index for DefiTier.com \u2014 Perpetual DEX Screener & Airdrop Terminal, Perp DEX tier list 2026, funding rate arbitrage matrix, airdrop calendar, venue compare, and points calculator across 70+ protocols.",
   "main": "index.ts",
   "types": "index.ts",
   "keywords": [
