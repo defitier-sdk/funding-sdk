@@ -22,7 +22,7 @@ Official public **GitHub Showcase & Developer SDK** for **[DefiTier.com](https:/
 > 
 > 🔗 **Live Hub:** [defitier.com/en/tiers](https://defitier.com/en/tiers)
 
-![DefiTier Screener & Tier List](./screenshots/1_home_airdrop_screener.png)
+![DefiTier Screener & Tier List](./1_home_airdrop_screener.png)
 
 ---
 
@@ -31,7 +31,7 @@ Official public **GitHub Showcase & Developer SDK** for **[DefiTier.com](https:/
 > 
 > 🔗 **Live Hub:** [defitier.com/en/funding](https://defitier.com/en/funding)
 
-![Funding Rate Matrix & Arbitrage](./screenshots/2_funding_rate_matrix.png)
+![Funding Rate Matrix & Arbitrage](./2_funding_rate_matrix.png)
 
 ---
 
@@ -40,7 +40,7 @@ Official public **GitHub Showcase & Developer SDK** for **[DefiTier.com](https:/
 > 
 > 🔗 **Live Hub:** [defitier.com/en/calculator](https://defitier.com/en/calculator) · [Dedicated Calculator Example](https://defitier.com/en/calculator/hyperliquid)
 
-![Points Calculator & Breakeven](./screenshots/3_points_breakeven_calculator.png)
+![Points Calculator & Breakeven](./3_points_breakeven_calculator.png)
 
 ---
 
@@ -49,7 +49,7 @@ Official public **GitHub Showcase & Developer SDK** for **[DefiTier.com](https:/
 > 
 > 🔗 **Live Hub:** [defitier.com/en/compare](https://defitier.com/en/compare)
 
-![Perp DEX Compare Matrix](./screenshots/4_perp_dex_compare_matrix.png)
+![Perp DEX Compare Matrix](./4_perp_dex_compare_matrix.png)
 
 ---
 
@@ -58,7 +58,7 @@ Official public **GitHub Showcase & Developer SDK** for **[DefiTier.com](https:/
 > 
 > 🔗 **Live Hub:** [defitier.com/en/airdrop-calendar](https://defitier.com/en/airdrop-calendar)
 
-![Airdrop Calendar Timeline](./screenshots/5_airdrop_calendar_timeline.png)
+![Airdrop Calendar Timeline](./5_airdrop_calendar_timeline.png)
 
 ---
 
