@@ -22,7 +22,7 @@ Official public **GitHub Showcase & Developer SDK** for **[DefiTier.com](https:/
 > 
 > 🔗 **Live Hub:** [defitier.com/en/](https://defitier.com/en/)
 
-![DefiTier Terminal & Screener](./1_home_airdrop_screener.png)
+![DefiTier Terminal & Screener](./hero-terminal-screener.png)
 
 ---
 
@@ -31,7 +31,7 @@ Official public **GitHub Showcase & Developer SDK** for **[DefiTier.com](https:/
 > 
 > 🔗 **Live Hub:** [defitier.com/en/funding](https://defitier.com/en/funding)
 
-![Funding Rate Matrix & Arbitrage](./2_funding_rate_matrix.png)
+![Funding Rate Matrix & Arbitrage](./funding-rate-matrix.png)
 
 ---
 
@@ -40,7 +40,7 @@ Official public **GitHub Showcase & Developer SDK** for **[DefiTier.com](https:/
 > 
 > 🔗 **Live Hub:** [defitier.com/en/calculator](https://defitier.com/en/calculator) · [Dedicated Calculator Example](https://defitier.com/en/calculator/hyperliquid)
 
-![Points Calculator & Breakeven](./3_points_breakeven_calculator.png)
+![Points Calculator & Breakeven](./points-calculator-risex.png)
 
 ---
 
@@ -49,7 +49,7 @@ Official public **GitHub Showcase & Developer SDK** for **[DefiTier.com](https:/
 > 
 > 🔗 **Live Hub:** [defitier.com/en/funding](https://defitier.com/en/funding)
 
-![Delta-Neutral Arbitrage Simulator](./4_perp_dex_compare_matrix.png)
+![Delta-Neutral Arbitrage Simulator](./delta-neutral-arbitrage-simulator.png)
 
 ---
 
@@ -58,7 +58,7 @@ Official public **GitHub Showcase & Developer SDK** for **[DefiTier.com](https:/
 > 
 > 🔗 **Live Hub:** [defitier.com/en/](https://defitier.com/en/)
 
-![Perp DEX Farming Suite & Ecosystems](./5_airdrop_calendar_timeline.png)
+![Perp DEX Farming Suite & Ecosystems](./farming-suite-ecosystems.png)
 
 ---
 
