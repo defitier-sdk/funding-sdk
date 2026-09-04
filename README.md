@@ -17,17 +17,17 @@ Official public **GitHub Showcase & Developer SDK** for **[DefiTier.com](https:/
 
 ## 🖥️ Product Showcase / Витрина платформы
 
-### 1. Live Screener & Tier List (Скринер и рейтинг протоколов)
-> Живой мониторинг 80+ Perp DEX с распределением по тирам (Tier S–D, POST), объемами 24ч, открытым интересом (OI), дельтой за 7 дней и алгоритмическим Farm Score (0–100).
+### 1. Terminal Hero & Live Screener (Главный терминал и трекер программ)
+> Главный экран DefiTier с новым фирменным стилем, 3D-пропуском Airdrop Pass, отслеживаемыми объемами ($134.75B 24h Vol, $105.60B Open Interest) и прямым доступом к фармингу лучших Tier S протоколов.
 > 
-> 🔗 **Live Hub:** [defitier.com/en/tiers](https://defitier.com/en/tiers)
+> 🔗 **Live Hub:** [defitier.com/en/](https://defitier.com/en/)
 
-![DefiTier Screener & Tier List](./1_home_airdrop_screener.png)
+![DefiTier Terminal & Screener](./1_home_airdrop_screener.png)
 
 ---
 
-### 2. Funding Rate Arbitrage Screener (Сканер арбитража фандинга)
-> Мониторинг ставок финансирования в реальном времени, выявление максимальных спредов между биржами и расчет чистой доходности дельта-нейтрального арбитража с учетом комиссий тейкера.
+### 2. Asset × Venue Funding Matrix (Матрица ставок фандинга и спредов)
+> Мониторинг ставок финансирования в реальном времени по 100+ активам и 24 децентрализованным и централизованным биржам (DEX & CEX), автоматический расчет спредов (Gross Spread %) и 1-клик переходы для открытия арбитражных позиций.
 > 
 > 🔗 **Live Hub:** [defitier.com/en/funding](https://defitier.com/en/funding)
 
@@ -36,7 +36,7 @@ Official public **GitHub Showcase & Developer SDK** for **[DefiTier.com](https:/
 ---
 
 ### 3. Points & Airdrop Breakeven Calculator (Калькулятор поинтов и дропов)
-> Персональный калькулятор для каждого протокола: расчет ожидаемой стоимости наград, точки окупаемости по FDV, затрат на комиссии и генерация вирусных шеринг-билетов (Canvas PNG) в 1 клик.
+> Персональный калькулятор доходности фарминга: расчет ожидаемой выплаты ($), точки окупаемости по FDV, затрат на комиссии и сбалансированный 3-колоночный тулбар действий (`Farm on DEX`, `Share Calculation`, `Compare DEXes`) с генерацией вирусных Canvas-тикетов.
 > 
 > 🔗 **Live Hub:** [defitier.com/en/calculator](https://defitier.com/en/calculator) · [Dedicated Calculator Example](https://defitier.com/en/calculator/hyperliquid)
 
@@ -44,27 +44,27 @@ Official public **GitHub Showcase & Developer SDK** for **[DefiTier.com](https:/
 
 ---
 
-### 4. Head-to-Head Venue Comparison (Сравнение протоколов лицом к лицу)
-> Прямое сопоставление двух бирж: комиссии мейкера/тейкера, сетевые сборы, ликвидность, объем торгов, безопасность и условия фарминга наград.
+### 4. Delta-Neutral Arbitrage Simulator (Симулятор дельта-нейтрального арбитража)
+> Интерактивный калькулятор доходности прямо на странице фандинга: выбор связки лонг/шорт, учет комиссий тейкера (Taker Fee Drag), расчет чистой прибыли в долларах (+Net Profit) и годового чистого APR за период удержания.
 > 
-> 🔗 **Live Hub:** [defitier.com/en/compare](https://defitier.com/en/compare)
+> 🔗 **Live Hub:** [defitier.com/en/funding](https://defitier.com/en/funding)
 
-![Perp DEX Compare Matrix](./4_perp_dex_compare_matrix.png)
+![Delta-Neutral Arbitrage Simulator](./4_perp_dex_compare_matrix.png)
 
 ---
 
-### 5. Airdrop Timeline & TGE Calendar (Календарь снэпшотов и TGE)
-> Проверенные даты запуска токенов (TGE), дедлайны эпох, еженедельные начисления поинтов и исторический трекер подтвержденных дропов.
+### 5. Perp DEX Farming Suite & Ecosystems (Инструменты фарминга и экосистемы)
+> Единая навигационная витрина инструментов (Funding, Calendar, Calculator, Compare, News, Guides) и аналитика поддерживаемых экосистем (Solana, Hyperliquid HIP-3, BNB Chain, Arbitrum, Sui, Base, Polygon, Robinhood Chain).
 > 
-> 🔗 **Live Hub:** [defitier.com/en/airdrop-calendar](https://defitier.com/en/airdrop-calendar)
+> 🔗 **Live Hub:** [defitier.com/en/](https://defitier.com/en/)
 
-![Airdrop Calendar Timeline](./5_airdrop_calendar_timeline.png)
+![Perp DEX Farming Suite & Ecosystems](./5_airdrop_calendar_timeline.png)
 
 ---
 
 ## ⚡ Ключевые возможности / Core Highlights
 
-- 🚀 **1,119 страниц SSG** — мгновенный отклик (< 10ms TTFB) без лагов серверов.
+- 🚀 **1,119 страниц SSG** — мгновенный отклик (< 10ms TTFB) без задержек серверов.
 - 📊 **80+ протоколов** — полное покрытие Hyperliquid, Lighter, Aster, Variational, Paradex, dYdX, ApeX и др.
 - 🧮 **Интерактивные виджеты** — встроенный симулятор арбитража фандинга и расчет PnL прямо на странице.
 - 🎨 **HTML5 Canvas Card Generator** — экспорт брендовых карточек результатов в PNG без сторонних библиотек с поддержкой копирования в буфер обмена (`navigator.clipboard.write`).
