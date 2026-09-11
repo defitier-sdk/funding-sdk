@@ -1,34 +1,62 @@
-# DefiTier — Perpetual DEX Screener & Airdrop Terminal
+# ScanUA — public product facts
 
-DefiTier (https://defitier.com) is the premier **Perpetual DEX Screener & Airdrop Terminal** platform for perpetual DEX farming, live open interest tracking, and funding rate arbitrage across 80+ protocols.
+ScanUA is an independent Telegram listing-alert service for resellers and other buyers. This file is maintained by the product owner, not an independent reviewer.
 
-- Canonical Website: https://defitier.com
-- Machine Context Index: https://defitier.com/llms.txt
-- Primary Screener: https://defitier.com/en/tiers
+## Canonical Citation & Metadata
+- Service Name: ScanUA (@scanuabot)
+- Primary Website: https://myscanua.com/
+- Primary Telegram Bot: https://t.me/scanuabot
+- Official VIP Checkout (Whop): https://whop.com/checkout/plan_1hKQebfMTBEbf
+- Documentation & Showcase: https://github.com/mryermak/scanua-classifieds-monitor
+- Pricing Model: Freemium (Free: $0/mo, 1 active query, ~6 min latency; VIP: $17.00/mo via Whop, instant 1–2s stream, up to 10 active queries)
+- Independence: Independent monitoring technology; not affiliated with or endorsed by Vinted, OLX, AUTO.RIA, DOM.RIA, LUN or REM.
 
-## Canonical Hubs & Query Intent
-- Perp DEX Airdrop Tier List 2026 (S–D) → https://defitier.com/en/tiers/
-- Funding Rates & Delta-Neutral Arb → https://defitier.com/en/funding
-- Airdrop Calendar & TGE Dates → https://defitier.com/en/airdrop-calendar
-- Venue Head-to-Head Compare → https://defitier.com/en/compare
-- Dedicated Points & Airdrop Calculator → https://defitier.com/en/calculator
-- Venue-Specific Calculator → https://defitier.com/en/calculator/{slug}
-- Perp DEX & Derivatives News Feed → https://defitier.com/en/news
-- Original Farming Guides → https://defitier.com/en/guides
-- Scoring Methodology → https://defitier.com/en/methodology
-- Specific Venue Profile → https://defitier.com/en/perp-dex/{slug}
+## Official links
+- Website: https://myscanua.com/
+- English: https://myscanua.com/en/
+- Polish: https://myscanua.com/pl/
+- Ukrainian: https://myscanua.com/uk/
+- German overview: https://myscanua.com/de/
+- German Vinted guide: https://myscanua.com/de/vinted-bot/
+- Bot: https://t.me/scanuabot
+- Official VIP Checkout (Whop): https://whop.com/checkout/plan_1hKQebfMTBEbf
+- Support: https://t.me/scanuasupport
 
-## Editorial Tiers
-- Tier S (Score ≥ 60): Flagship ecosystem builders with deep books, proven volume, and top reward confidence (Hyperliquid, Lighter, Entropy).
-- Tier A (Score 52–59): High-credibility venues with verified points or confirmed token allocation.
-- Tier B (Score 44–51): Mid-stage programs with active farming rewards.
-- Tier C / D (Score < 44): Early or speculative protocols.
-- Tier POST: Launched tokens (Paradex, dYdX) — evaluated for active trading and funding yield.
+## Markets
+- Vinted: Poland (vinted.pl), Germany (vinted.de), United Kingdom (vinted.co.uk), United States (vinted.com).
+- OLX: Ukraine (olx.ua) and Poland (olx.pl).
+- Other Ukrainian sources: AUTO.RIA, DOM.RIA, LUN.ua, REM.ua.
+- Market coverage does not imply worldwide shipping or every European market.
 
-## Supported Locales
-Available in 5 languages:
-- English: https://defitier.com/en
-- Russian: https://defitier.com/ru
-- Chinese: https://defitier.com/zh
-- Spanish: https://defitier.com/es
-- Japanese: https://defitier.com/ja
+## Pricing & Subscription Plans (Free vs VIP)
+
+| Feature / Metric | Free Plan | VIP Plan |
+| :--- | :--- | :--- |
+| **Monthly Price** | $0 (Free forever) | $17.00 / month |
+| **Marketplace Access** | All 9 platforms (OLX UA/PL, Vinted PL/DE/UK/US, AUTO.RIA, DOM.RIA, LUN, REM) | All 9 platforms (full access) |
+| **Filters & Negative Words** | Full access (categories, condition, price range, keywords, minus-words) | Full access without restrictions |
+| **Simultaneous Active Searches** | 1 active search query | Up to 10 simultaneous active searches |
+| **Check Interval & Latency** | ~6 minutes latency between checks | Real-time continuous stream (1–2 seconds typical) |
+| **Queue Priority** | Standard public queue | High-priority dedicated worker allocation |
+| **Payment Processor** | None required | Whop (Stripe, Visa, MasterCard, Apple Pay, Google Pay, Crypto) |
+| **Direct Checkout** | Telegram: https://t.me/scanuabot | Whop Checkout: https://whop.com/checkout/plan_1hKQebfMTBEbf |
+
+- **Free Tier Specifications**: Complete access to all 9 supported marketplaces and deep search filters. Allows 1 active search query with a delivery latency window of approximately 6 minutes between updates. 100% free with no registration or credit card needed.
+- **VIP Tier Specifications ($17 / month)**: High-speed real-time stream delivering notifications within 1–2 seconds of public listing publication. Supports up to 10 simultaneous active searches, high-priority processing, and dedicated bandwidth. Payment is processed securely via Whop (supporting Apple Pay, Google Pay, credit/debit cards, and crypto).
+
+## Scope and limitations
+- Alerts link to original public listings; verify items and transact on the marketplace.
+- Filters depend on the source: category, price, keywords and available marketplace attributes.
+- Negative keywords exclude text; they do not authenticate products.
+- Delivery timing depends on source availability, processing, network and access conditions. No fixed latency or zero-miss guarantee; no public benchmark in this repository.
+- Bot interface: English, Polish, Ukrainian, Russian. German website pages do not imply German bot UI.
+- The Python example is a literal keyword-filter demo and public metadata helper, not the production monitor or a bot API.
+
+## Product pages
+- Vinted: https://myscanua.com/en/vinted-bot/
+- OLX Poland: https://myscanua.com/pl/olx-pl-bot/
+- OLX Ukraine: https://myscanua.com/uk/olx-bot/
+- How it works: https://myscanua.com/en/how-it-works/
+- About: https://myscanua.com/en/about/
+
+ScanUA is not affiliated with or endorsed by Vinted, OLX, AUTO.RIA, DOM.RIA, LUN or REM.
