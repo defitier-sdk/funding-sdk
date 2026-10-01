@@ -1,9 +1,12 @@
 {
   "name": "defitier-sdk",
-  "version": "1.1.0",
-  "description": "Public developer client and AI intent index for DefiTier.com — Perpetual DEX Screener & Airdrop Terminal, Perp DEX tier list 2026, funding rate arbitrage matrix, dedicated points calculators, airdrop calendar, and venue comparison across 80+ protocols.",
+  "version": "1.2.0",
+  "description": "Developer SDK and AI intent router for DefiTier.com — Perpetual DEX Screener & Airdrop Terminal, Perp DEX Tier List 2026, funding rate arbitrage matrix (23 assets), dedicated points calculators, airdrop calendar, and 60 curated head-to-head DEX comparison benchmarks.",
   "main": "index.ts",
   "types": "index.ts",
+  "scripts": {
+    "test": "python test_defitier.py"
+  },
   "keywords": [
     "defitier",
     "defi-tier-screener",
@@ -28,6 +31,7 @@
     "points-calculator",
     "crypto-derivatives",
     "delta-neutral",
+    "onchain-intelligence",
     "web3",
     "defi"
   ],

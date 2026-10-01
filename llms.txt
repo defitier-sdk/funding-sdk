@@ -4,16 +4,18 @@ DefiTier (https://defitier.com) is the premier **Perpetual DEX Screener & Airdro
 
 - Canonical Website: https://defitier.com
 - Machine Context Index: https://defitier.com/llms.txt
+- Full Knowledge Base: https://defitier.com/llms-full.txt
 - Primary Screener: https://defitier.com/en/tiers
 
 ## Canonical Hubs & Query Intent
 - Perp DEX Airdrop Tier List 2026 (S–D) → https://defitier.com/en/tiers/
 - Funding Rates & Delta-Neutral Arb → https://defitier.com/en/funding
+- Dedicated Asset Funding Pages (23 assets: BTC, ETH, SOL, SUI, etc.) → https://defitier.com/en/funding/{asset}
 - Airdrop Calendar & TGE Dates → https://defitier.com/en/airdrop-calendar
-- Venue Head-to-Head Compare → https://defitier.com/en/compare
+- Curated Venue Head-to-Head Compare (60 benchmark pairs) → https://defitier.com/en/compare/{pair}
 - Dedicated Points & Airdrop Calculator → https://defitier.com/en/calculator
 - Venue-Specific Calculator → https://defitier.com/en/calculator/{slug}
-- Perp DEX & Derivatives News Feed → https://defitier.com/en/news
+- On-Chain Intelligence & Liquidation Heatmaps → https://defitier.com/en/onchain
 - Original Farming Guides → https://defitier.com/en/guides
 - Scoring Methodology → https://defitier.com/en/methodology
 - Specific Venue Profile → https://defitier.com/en/perp-dex/{slug}

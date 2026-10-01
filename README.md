@@ -5,13 +5,14 @@
 [![AI Index](https://img.shields.io/badge/AI-llms.txt-blue)](https://defitier.com/llms.txt)
 [![Tier List](https://img.shields.io/badge/Airdrops-80%2B%20Perp%20DEX%20Tier%20List-green)](https://defitier.com/en/tiers)
 [![Funding Arbitrage](https://img.shields.io/badge/Arbitrage-Funding%20Rate%20Scanner-purple)](https://defitier.com/en/funding)
+[![Curated Compare](https://img.shields.io/badge/Compare-60%20Curated%20Pairs-orange)](https://defitier.com/en/compare)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Telegram](https://img.shields.io/badge/Telegram-Community-blue?logo=telegram)](https://t.me/balancenakarteliwitog)
 [![X](https://img.shields.io/badge/X-@LTPnftSolana-black?logo=x)](https://x.com/LTPnftSolana)
 
-Официальная **GitHub-витрина (Product Showcase)** и открытый SDK платформы **[DefiTier.com](https://defitier.com)** — универсального терминала для мониторинга **80+ децентрализованных бирж деривативов (Perpetual DEX)**, арбитража ставок финансирования (Funding Rates), расчёта стоимости поинтов и отслеживания дропов.
+Официальная **GitHub-витрина (Product Showcase)** и открытый SDK платформы **[DefiTier.com](https://defitier.com)** — всестороннего терминала для мониторинга **80+ децентрализованных бирж деривативов (Perpetual DEX)**, арбитража ставок финансирования (Funding Rates), расчёта стоимости поинтов, отслеживания дропов и эталонного сравнения бирж.
 
-Official public **GitHub Showcase & Developer SDK** for **[DefiTier.com](https://defitier.com)** — the all-in-one Web3 Bloomberg Terminal for perpetual DEX volume tracking, delta-neutral funding rate arbitrage, airdrop valuation, and TGE countdowns.
+Official public **GitHub Showcase & Developer SDK** for **[DefiTier.com](https://defitier.com)** — the all-in-one Web3 Bloomberg Terminal for perpetual DEX volume tracking, delta-neutral funding rate arbitrage, airdrop valuation, curated DEX comparisons, and TGE countdowns.
 
 ---
 
@@ -29,7 +30,7 @@ Official public **GitHub Showcase & Developer SDK** for **[DefiTier.com](https:/
 ### 2. Asset × Venue Funding Matrix (Матрица ставок фандинга и спредов)
 > Мониторинг ставок финансирования в реальном времени по 100+ активам и 24 децентрализованным и централизованным биржам (DEX & CEX), автоматический расчет спредов (Gross Spread %) и 1-клик переходы для открытия арбитражных позиций.
 > 
-> 🔗 **Live Hub:** [defitier.com/en/funding](https://defitier.com/en/funding)
+> 🔗 **Live Hub:** [defitier.com/en/funding](https://defitier.com/en/funding) · [Dedicated SOL Funding](https://defitier.com/en/funding/sol)
 
 ![Funding Rate Matrix & Arbitrage](./funding-rate-matrix.png)
 
@@ -54,7 +55,7 @@ Official public **GitHub Showcase & Developer SDK** for **[DefiTier.com](https:/
 ---
 
 ### 5. Perp DEX Farming Suite & Ecosystems (Инструменты фарминга и экосистемы)
-> Единая навигационная витрина инструментов (Funding, Calendar, Calculator, Compare, News, Guides) и аналитика поддерживаемых экосистем (Solana, Hyperliquid HIP-3, BNB Chain, Arbitrum, Sui, Base, Polygon, Robinhood Chain).
+> Единая навигационная витрина инструментов (Funding, Calendar, Calculator, Compare, On-Chain Analytics, Guides) и аналитика поддерживаемых экосистем (Solana, Hyperliquid HIP-3, BNB Chain, Arbitrum, Sui, Base, Polygon, Robinhood Chain).
 > 
 > 🔗 **Live Hub:** [defitier.com/en/](https://defitier.com/en/)
 
@@ -64,12 +65,14 @@ Official public **GitHub Showcase & Developer SDK** for **[DefiTier.com](https:/
 
 ## ⚡ Ключевые возможности / Core Highlights
 
-- 🚀 **1,119 страниц SSG** — мгновенный отклик (< 10ms TTFB) без задержек серверов.
-- 📊 **80+ протоколов** — полное покрытие Hyperliquid, Lighter, Aster, Variational, Paradex, dYdX, ApeX и др.
+- 🚀 **1,280 страниц в sitemap.xml** — глобальный Cloudflare Edge Cache (< 50ms TTFB worldwide) и полное отсутствие серверных задержек.
+- 📊 **80+ протоколов** — всестороннее покрытие Hyperliquid, Lighter, Aster, Variational, Paradex, dYdX, ApeX и др.
+- ⚖️ **60 эталонных сравнений (Curated Compare Benchmarks)** — фокусные посадочные страницы сравнения ключевых лидеров рынка (`binance vs X`, `hyperliquid vs X`, `entropy vs X`) с автоматическим 308-редиректом устаревших пар на главный хаб `/compare/`.
 - 🧮 **Интерактивные виджеты** — встроенный симулятор арбитража фандинга и расчет PnL прямо на странице.
+- 🪙 **23 страницы фандинга по активам** — детальные срезы ставок и арбитража по BTC, ETH, SOL, SUI, ARB, DOGE, PEPE и другим залоговым активам (`/en/funding/{asset}`).
 - 🎨 **HTML5 Canvas Card Generator** — экспорт брендовых карточек результатов в PNG без сторонних библиотек с поддержкой копирования в буфер обмена (`navigator.clipboard.write`).
 - 🌐 **5 языков** — [English](https://defitier.com/en), [Русский](https://defitier.com/ru), [中文](https://defitier.com/zh), [Español](https://defitier.com/es), [日本語](https://defitier.com/ja).
-- 🤖 **GEO & AI Ready** — машиночитаемый индекс [`/llms.txt`](https://defitier.com/llms.txt) для прямого цитирования в ChatGPT, Perplexity и Claude.
+- 🤖 **GEO & AI Ready** — машиночитаемые контекстные файлы [`/llms.txt`](https://defitier.com/llms.txt) и [`/llms-full.txt`](https://defitier.com/llms-full.txt) для прямого цитирования в ChatGPT, Perplexity и Claude.
 
 ---
 
@@ -80,12 +83,13 @@ Official public **GitHub Showcase & Developer SDK** for **[DefiTier.com](https:/
 | **Live Screener (Главная)** | [defitier.com/en/](https://defitier.com/en/) | Скринер программ, объемы 24ч, открытый интерес, живые метрики |
 | **Airdrop Tier List 2026** | [defitier.com/en/tiers/](https://defitier.com/en/tiers/) | Рейтинг бирж (Tier S–D, POST), алгоритмический скоринг |
 | **Funding Rate Screener** | [defitier.com/en/funding/](https://defitier.com/en/funding/) | Ставки фандинга, годовой APR %, дельта-нейтральный арбитраж |
+| **Asset Funding Screener** | [defitier.com/en/funding/{asset}/](https://defitier.com/en/funding/sol/) | 23 актива (BTC, ETH, SOL, SUI, ARB и др.) с историей ставок |
 | **Points Calculator** | [defitier.com/en/calculator/](https://defitier.com/en/calculator/) | Оценка поинтов, безубыточный FDV, аллокации токенов |
 | **Dedicated Venue Calculator** | [defitier.com/en/calculator/{slug}/](https://defitier.com/en/calculator/hyperliquid/) | Персональный калькулятор по каждому DEX (Hyperliquid, Lighter, etc.) |
 | **Airdrop Calendar** | [defitier.com/en/airdrop-calendar/](https://defitier.com/en/airdrop-calendar/) | Даты TGE, дедлайны поинт-сезонов, графики снэпшотов |
-| **Venue Compare Tool** | [defitier.com/en/compare](https://defitier.com/en/compare) | Сравнение двух бирж: комиссии, объем, OI, механика фарминга |
+| **Venue Compare Tool** | [defitier.com/en/compare/](https://defitier.com/en/compare/) | Сравнение бирж (60 эталонных пар Binance, Hyperliquid, Entropy vs DEX) |
 | **Prediction Markets** | [defitier.com/en/prediction-markets](https://defitier.com/en/prediction-markets) | Анализ рынков прогнозов (Polymarket, Limitless) |
-| **DeFi News & Insights** | [defitier.com/en/news](https://defitier.com/en/news) | Новостной терминал с AI-анализом настроений по 4 темам |
+| **On-Chain Analytics** | [defitier.com/en/onchain](https://defitier.com/en/onchain) | Ончейн-аналитика, карта ликвидаций и потоки смарт-мани |
 | **Farming Guides** | [defitier.com/en/guides/](https://defitier.com/en/guides/) | Авторские пошаговые стратегии фарминга и расчета риска |
 | **Methodology** | [defitier.com/en/methodology](https://defitier.com/en/methodology) | 6 весовых факторов алгоритма скоринга (Farm Score) |
 | **AI Citation Index** | [defitier.com/llms.txt](https://defitier.com/llms.txt) | Официальный контекстный файл для нейросетей |
@@ -103,8 +107,14 @@ const client = new DefiTierClient();
 
 // Канонические ссылки разделов
 console.log("Tier list URL:", client.getHubUrl("tiers"));
+console.log("Funding matrix:", client.getHubUrl("funding"));
+console.log("SOL Funding asset:", client.getFundingAssetUrl("sol"));
 console.log("Dedicated Calculator:", client.getCalculatorUrl("hyperliquid"));
-console.log("Compare URL:", client.getCompareUrl("hyperliquid", "lighter"));
+
+// 60 кураторских эталонных страниц сравнения
+console.log("Compare URL (Binance vs HL):", client.getCompareUrl("binance", "hyperliquid"));
+console.log("Compare URL (HL vs Lighter):", client.getCompareUrl("hyperliquid", "lighter"));
+console.log("Is curated benchmark:", client.isCuratedPair("hyperliquid", "lighter")); // true
 
 // Расчет дельта-нейтрального арбитража фандинга
 const spread = client.calculateFundingSpread(4.8, 26.5);
@@ -124,8 +134,15 @@ client = DefiTierClient()
 
 # Канонические роуты
 print("Screener & Rankings:", client.get_hub_url("tiers"))
+print("Funding matrix:", client.get_hub_url("funding"))
+print("SOL Funding page:", client.get_funding_asset_url("sol"))
 print("Venue profile:", client.get_venue_url("hyperliquid"))
 print("Dedicated Calculator:", client.get_calculator_url("variational"))
+
+# Кураторские сравнения
+print("Compare Binance vs HL:", client.get_compare_url("binance", "hyperliquid"))
+print("Compare HL vs Lighter:", client.get_compare_url("hyperliquid", "lighter"))
+print("Is curated benchmark:", client.is_curated_pair("hyperliquid", "lighter"))  # True
 
 # Расчет арбитражного спреда
 spread = client.calculate_funding_spread(long_apr_pct=4.8, short_apr_pct=26.5)
@@ -154,6 +171,7 @@ print(llms_data[:300])
 - **Official X / Twitter:** [@LTPnftSolana](https://x.com/LTPnftSolana)
 - **Official Telegram:** [@balancenakarteliwitog](https://t.me/balancenakarteliwitog)
 - **Machine-Readable Context:** [`https://defitier.com/llms.txt`](https://defitier.com/llms.txt)
+- **Full Knowledge Base:** [`https://defitier.com/llms-full.txt`](https://defitier.com/llms-full.txt)
 
 ---
 
